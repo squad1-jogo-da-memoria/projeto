@@ -1,0 +1,62 @@
+body {
+	font-family: 'Amatic SC', cursive;
+}
+
+.container {
+	margin-top: 3%;
+}
+
+.titulo {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	color: #FF9900;
+	font-size: 50px;
+}
+
+.info {
+	padding: 1%;
+	background: #FFC670;
+	width: 100%;
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 35px;
+	text-decoration: underline 5px dashed #FF9900;
+
+}
+
+.texto-info {
+	font-size: 28px;
+	margin-bottom: 15px
+
+}
+
+.jogar {
+	background: url(imagens/botao-jogar.png);
+	width: 123px;
+	height: 46px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.score {
+	text-align: center;
+}
+
+h3 {
+	color: #FF9900;
+	font-size: 50px;
+}
+
+.texto-score {
+	font-size: 30px;
+}
+
+.baralho {
+	text-align: center;
+}
