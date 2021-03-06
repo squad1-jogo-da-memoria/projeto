@@ -1,0 +1,14 @@
+data = [
+	{
+		"id": "0",
+		"url": "imagens/naruto.jpg"
+	},
+	{
+		"id": "1",
+		"url": "imagens/pokemon.png"
+	},
+	{
+		"id": "2",
+		"url": "imagens/yugioh.jpg"
+	}
+]

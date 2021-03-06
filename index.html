@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>JOGO DA MEMÓRIA - SQUAD_01</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<section>
+			<nav>
+				<h2>JOGO DA MEMÓRIA</h2>
+				<p><strong>COMO JOGAR: </strong>CLIQUE EM UMA CARTA PARA REVELAR A IMAGEM,
+				ENCONTRE DUAS CARTAS REPETIDAS PARA PONTUAR.</p>
+				<ul style flex-wrap="wrap" display="flex">
+					<li><button onclick="cartasYuGiOh()">Yu-Gi-Oh</button></li>
+					<li><button onclick="cartasPokemon()">Pokemon</button></li>
+					<li><button onclick="cartasNaruto()">Naruto</button></li>
+				</ul>
+			</nav>	  
+			<article id="cartas">
+				<div class="card">
+					<img src="">			
+				</div>
+				<div class="card">
+					<img src="">			
+				</div>
+				<div class="card">
+					<img src="">			
+				</div>
+			</article>
+			<!--
+			<h4>This is an example for flex-wrap:wrap </h4>
+			<div class="content">
+				<div class="red">1</div>
+				<div class="green">2</div>
+				<div class="blue">3</div>
+			</div>
+			<h4>This is an example for flex-wrap:nowrap </h4>
+			<div class="content1">
+				<div class="red">1</div>
+				<div class="green">2</div>
+				<div class="blue">3</div>
+			</div>
+			<h4>This is an example for flex-wrap:wrap-reverse </h4>
+			<div class="content2">
+				<div class="red">1</div>
+				<div class="green">2</div>
+				<div class="blue">3</div>
+			</div>
+			-->
+		</section>
+		<footer>
+			<p>Footer</p>
+		</footer>
+	</body>	
+	<script type="text/javascript" src="cartas.json"></script>
+	<script src="js/script.js"></script>
+	<div  onload="carregaJSON()"></div>
+</html>
