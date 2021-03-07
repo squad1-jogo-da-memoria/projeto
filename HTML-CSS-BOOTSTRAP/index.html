@@ -17,65 +17,67 @@
 
 	<body>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-md-5">
+			<img src="imagens/bg-naruto-sm.png" id="bg-alteravel">
 
-					<div class="titulo">
-					
-						<h1>Jogo da Memória</h1>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="titulo">
+							
+								<h1 id="titulo">Jogo da Memória</h1>
 
+							</div>
+						
+							
+							<div class="info" id="info">
+								<h2>Como jogar:</h2>
+								<p class="texto-info">Clique em uma carta para revelar a imagem,<br> 
+								encontre duas cartas iguais para pontuar.</p>
+
+								<h2>Dificuldade:</h2>
+								<p class="texto-info"><a href="">Fácil</a> | <a href="">Médio</a> | <a href="">Difícil</a></p>
+
+								<h2>Baralhos:</h2>
+								<p class="texto-info"><button onclick="bgNaruto()">Naruto</button> | <button onclick="bgPokemon()">Pokemon</button> | <button onclick="bgYugi()">Yugioh</button></p>
+
+								<a href="baralho.html"><img src="imagens/botao-jogar.png" class="jogar" id="jogar"></a>
+							</div>
+						</div>
 					</div>
-				
-					
-					<div class="info">
-						<h2>Como jogar:</h2>
-						<p class="texto-info">Clique em uma carta para revelar a imagem,<br> 
-						encontre duas cartas iguais para pontuar.</p>
-
-						<h2>Baralhos:</h2>
-						<p class="texto-info">Naruto | Pokemon | Yugioh</p>
-
-						<h2>Dificuldade:</h2>
-						<p class="texto-info">Fácil | Médio | Difícil</p>
-
-						<button class="jogar"></button>
-					</div>
-				
-					<div class="score">
-						<h3>Pontuação:
-						<span id="pontuacao">0</span>
-						</h3>
-
-						<p class="texto-score">
-							Tempo: <span id="tempo">00:00</span> |
-							Tentativas: <span id="tentativas">0</span>
-						</p>
-					</div>
-
 				</div>
+				
 			
-		
-				<div class="col-10 col-md-7">
-					<div class="baralho">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-						<img src="imagens\baralhos\baralho-naruto/naruto-verso.png">
-					</div>
-				</div>
-			</div>
-		</div>
 
+			<script>
 
+				function bgNaruto(){
+
+				document.getElementById('bg-alteravel').src='imagens/bg-naruto-sm.png';
+				document.body.style.background = '#FF9432';
+				document.getElementById('info').style.background = '#ffda91';
+				document.getElementById('titulo').style.color = '#ffda91';
+				document.getElementById('jogar').src='imagens/botao-jogar.png';
+				}
+				
+				function bgPokemon(){
+
+				document.getElementById('bg-alteravel').src='imagens/bg-pokemon-sm.png';
+				document.body.style.background = '#D7F2B1';
+				document.getElementById('info').style.background = '#A7D774';
+				document.getElementById('titulo').style.color = '#A7D774';
+				document.getElementById('jogar').src='imagens/botao-jogar-p.png';
+				}
+
+				function bgYugi(){
+
+				document.getElementById('bg-alteravel').src='imagens/bg-yugi-sm.png';
+				document.body.style.background = '#0785B5';
+				document.getElementById('info').style.background = '#ACD9D6';
+				document.getElementById('titulo').style.color = '#ACD9D6';
+				document.getElementById('jogar').src='imagens/botao-jogar-y.png';
+				}
+
+			</script>
 
 	</body>
 
