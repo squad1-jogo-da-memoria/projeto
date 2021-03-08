@@ -1,0 +1,14 @@
+data = [
+	{
+		"id": "0",
+		"url": "imagens/baralhos/baralho-naruto/naruto-verso.png"
+	},
+	{
+		"id": "1",
+		"url": "imagens/baralhos/baralho-pokemon/pokemon-verso.png"
+	},
+	{
+		"id": "2",
+		"url": "imagens/baralhos/baralho-yugioh/yugioh-verso.png"
+	}
+]

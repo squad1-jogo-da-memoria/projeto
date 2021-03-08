@@ -1,0 +1,106 @@
+body {
+	font-family: 'Amatic SC', cursive;
+}
+
+.container {
+	margin-top: 3%;
+}
+
+.titulo {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	color: #FF9900;
+	font-size: 50px;
+}
+
+.info {
+	padding: 1%;
+	background: #FFC670;
+	width: 100%;
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 35px;
+	text-decoration: underline 5px dashed #FF9900;
+
+}
+
+.texto-info {
+	font-size: 28px;
+	margin-bottom: 15px
+
+}
+
+.jogar {
+	background: url(imagens/botao-jogar.png);
+	width: 123px;
+	height: 46px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.score {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/*
+.habilitaDivDecks {
+	display: none;
+}
+*/
+
+h3 {
+	color: #FF9900;
+	font-size: 50px;
+}
+
+.texto-score {
+	font-size: 30px;
+}
+
+.baralho {
+	text-align: center;
+}
+
+.decks {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* CSS TESTE */
+/*
+.img:hover{
+     box-shadow: 0px 0px 90px #000000;
+      z-index: 4;
+      -webkit-transition: all 200ms ease-in;
+      -webkit-transform: scale(1.2);
+      -ms-transition: all 200ms ease-in;
+      -ms-transform: scale(1.2);  
+      -moz-transition: all 200ms ease-in;
+      -moz-transform: scale(1.2);
+      transition: all 200ms ease-in;
+      transform: scale(1.2);
+}
+*/
+/*
+.img:hover{
+transition: 4s;
+transition: 4s;
+transform: rotateY(180deg);
+opacity: 0;
+filter: blur(10px);
+}
+*/
+#switch:checked ~ .flip-container .flipper {  transform: rotateY(180deg);}
+#switch{    display: none;}
+
+/* CSS TESTE */

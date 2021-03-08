@@ -1,0 +1,26 @@
+narutoDeck = [
+	{
+		"id": 0,
+		"path": "imagens/baralhos/baralho-naruto/naruto-carta-1.png"
+	},
+	{
+		"id": 1,
+		"path": "imagens/baralhos/baralho-naruto/naruto-carta-2.png"
+	},
+	{
+		"id": 2,
+		"path": "imagens/baralhos/baralho-naruto/naruto-carta-3.png"
+	},
+	{
+		"id": 3,
+		"path": "imagens/baralhos/baralho-naruto/naruto-carta-4.png"
+	},
+	{
+		"id": 4,
+		"path": "imagens/baralhos/baralho-naruto/naruto-carta-5.png"
+	},
+	{
+		"id": 5,
+		"path": "imagens/baralhos/baralho-naruto/naruto-carta-6.png"
+	}
+]    

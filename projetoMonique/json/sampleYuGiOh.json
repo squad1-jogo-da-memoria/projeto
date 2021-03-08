@@ -1,0 +1,26 @@
+yugiohDeck = [
+	{
+		"id": 0,
+		"path": "imagens/baralhos/baralho-yugioh/yugioh-carta-1.png"
+	},
+	{
+		"id": 1,
+		"path": "imagens/baralhos/baralho-yugioh/yugioh-carta-2.png"
+	},
+	{
+		"id": 2,
+		"path": "imagens/baralhos/baralho-yugioh/yugioh-carta-3.png"
+	},
+	{
+		"id": 3,
+		"path": "imagens/baralhos/baralho-yugioh/yugioh-carta-4.png"
+	},
+	{
+		"id": 4,
+		"path": "imagens/baralhos/baralho-yugioh/yugioh-carta-5.png"
+	},
+	{
+		"id": 5,
+		"path": "imagens/baralhos/baralho-yugioh/yugioh-carta-6.png"
+	}
+]    
