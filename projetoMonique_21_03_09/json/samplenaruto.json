@@ -1,0 +1,128 @@
+cardsNaruto =
+[
+    {
+        "id": 0,
+        "nome": "Naruto",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-1.png"
+    },
+    {
+        "id": 1,
+        "nome": "Sakura",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-2.png"
+    },
+    {
+        "id": 2,
+        "nome": "Sasuke",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-3.png"
+    },
+    {
+        "id": 3,
+        "nome": "Jiraiya",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-4.png"
+    },
+    {
+        "id": 4,
+        "nome": "Hinata",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-5.png"
+    },
+    {
+        "id": 5,
+        "nome": "Kakashi",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-6.png"
+    },
+    {
+        "id": 6,
+        "nome": "Tsunade",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-7.png"
+    },
+    {
+        "id": 7,
+        "nome": "Konan",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-8.png"
+    },
+    {
+        "id": 8,
+        "nome": "Pain",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-9.png"
+    },
+    {
+        "id": 9,
+        "nome": "Kurama",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-10.png"
+    },
+    {
+        "id": 10,
+        "nome": "Madara",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-11.png"
+    },
+    {
+        "id": 11,
+        "nome": "Shikamaru",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-12.png"
+    },
+    {
+        "id": 12,
+        "nome": "Deidara",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-13.png"
+    },
+    {
+        "id": 13,
+        "nome": "Minato",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-14.png"
+    },
+    {
+        "id": 14,
+        "nome": "Kushina",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-15.png"
+    },
+    {
+        "id": 15,
+        "nome": "Sasori",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-16.png"
+    },
+    {
+        "id": 16,
+        "nome": "Orochimaru",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-17.png"
+    },
+    {
+        "id": 17,
+        "nome": "Obito",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-18.png"
+    },
+    {
+        "id": 18,
+        "nome": "Chouji",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-19.png"
+    },
+    {
+        "id": 19,
+        "nome": "Ino",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-20.png"
+    },
+    {
+        "id": 20,
+        "nome": "Temari",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-21.png"
+    },
+    {
+        "id": 21,
+        "nome": "Gaara",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-22.png"
+    },
+    {
+        "id": 22,
+        "nome": "Asuma",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-23.png"
+    },
+    {
+        "id": 23,
+        "nome": "Itachi",
+        "path": "imagens/baralhos/baralho-naruto/naruto-carta-24.png"
+    },
+    {
+        "id": 24,
+        "nome": "naruto-back-card",
+        "path": "imagens/baralhos/baralho-naruto/naruto-verso.png"
+    }
+]

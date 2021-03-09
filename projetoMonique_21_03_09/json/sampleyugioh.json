@@ -1,0 +1,129 @@
+cardsYugioh =
+    [
+        {
+            "id": 0,
+            "nome": "Dragao-Branco",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-1.png"
+        },
+        {
+            "id": 1,
+            "nome": "Exodia-Braco-Direito",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-2.png"
+        },
+        {
+            "id": 2,
+            "nome": "Exodia-Braco-Esquerdo",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-3.png"
+        },
+        {
+            "id": 3,
+            "nome": "Exodia-Perna-Direita",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-4.png"
+        },
+        {
+            "id": 4,
+            "nome": "Exodia-Perna-Esquerda",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-5.png"
+        },
+        {
+            "id": 5,
+            "nome": "Exodia-Cabeca",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-6.png"
+        },
+        {
+            "id": 6,
+            "nome": "Mago-Negro",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-7.png"
+        },
+        {
+            "id": 7,
+            "nome": "Fusao",
+            "path": "imagens/baralhos/baralho-yugioh/yugioh-carta-8.png"
+        },
+        {
+            "id": 8,
+            "nome":"Dragao-Amarelo-De-Ra",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-9.png"
+        },
+        {
+            "id": 9,
+            "nome":"Kuriboh",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-10.png"
+        },
+        {
+            "id": 10,
+            "nome":"Slifer",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-11.png"
+        },
+        {
+            "id": 11,
+            "nome":"Obelisco",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-12.png"
+        },
+        {
+            "id": 12,
+            "nome":"Elfa-Mistica",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-13.png"
+        },
+        {
+            "id": 13,
+            "nome":"Diabrete-Selvagem",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-14.png"
+        },
+        {
+            "id": 14,
+            "nome":"Dragao-Alado",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-15.png"
+        },
+        {
+            "id": 15,
+            "nome":"Caveira-Invocada",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-16.png"
+        },
+        {
+            "id": 16,
+            "nome":"Maga-Negra",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-17.png"
+        },
+        {
+            "id": 17,
+            "nome":"Castor-Guerreiro",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-18.png"
+        },
+        {
+            "id": 18,
+            "nome":"Maldicao-Do-Dragao",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-19.png"
+        },
+        {
+            "id": 19,
+            "nome":"Guardiao-Celta",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-20.png"
+        },
+        {
+            "id": 20,
+            "nome":"Cemiterio-de-Mamutes",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-21.png"
+        },
+        {
+            "id": 21,
+            "nome":"O-Grande-Branco",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-22.png"
+        },
+        {
+            "id": 22,
+            "nome":"O-Presa-De-Prata",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-23.png"
+        },
+        {
+            "id": 23,
+            "nome":"Soldado-De-Pedra-Gigante",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-carta-24.png"
+        },
+        {
+            "id": 24,
+            "nome":"yugioh-back-card",
+            "path":"imagens/baralhos/baralho-yugioh/yugioh-verso.png"
+        }
+
+    ]
