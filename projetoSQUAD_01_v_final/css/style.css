@@ -1,0 +1,110 @@
+html {
+	height: 100%
+}
+
+body {
+	font-family: 'Amatic SC', cursive;
+	height: 100%;
+	background: #FF9432;
+	
+}
+
+#bg-alteravel {
+	z-index: -1;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.titulo {
+	width: 100%;
+	text-align: center;
+	margin: 3% auto;
+}
+
+h1 {
+	color: #ffda91;
+	font-size: 70px;
+}
+
+.info {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 1%;
+	background: #ffda91;
+	width: 100%;
+	text-align: center;	
+}
+
+#botao-jogar:hover {
+	transform: scale(1.2);
+}
+
+button {
+	border: none;
+	background: none;	
+}
+
+button:hover {
+	background-color: white;
+	border-radius: 5px;
+}
+
+h2 {
+	font-size: 35px;
+	text-decoration: underline 5px dashed white;
+
+}
+
+.texto-info {
+	font-size: 28px;
+	margin-bottom: 15px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+.score {
+	text-align: center;
+	width: 100%;
+	height: 55px;
+	background: #fff;
+	margin-bottom: 2%;
+}
+
+a img {
+	padding-bottom: 3%;
+	display: inline;
+}
+
+.texto-score {
+	font-size: 35px;
+	display: inline;
+}
+
+.botao {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.col-10 {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 980px;	
+}
+
+.sombra:hover {
+	box-shadow: 0 0 10px rgb(245 241 168);
+}
+
+.sombra-acerto {
+	box-shadow: 0 0 20px rgb(107 222 102);
+	transition: 1s all;
+}

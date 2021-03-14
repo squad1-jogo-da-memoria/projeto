@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>		
+		<meta charset="UTF-8">
+		<title>Jogo da Memória</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="imagens/icon-naruto.png" sizes="16x16" type="image/png">
+	</head>
+	<body>		
+		<img src="imagens/bg-naruto-sm.png" id="bg-alteravel">			
+		<div class="titulo">
+			<h1 id="titulo">Jogo da Memória</h1>
+		</div>							
+		<div class="info" id="info">
+			<h2>Como jogar:</h2>
+			<p class="texto-info">Clique em uma carta para revelar a imagem,<br> 
+			encontre duas cartas iguais para pontuar.</p>
+			<h2>Dificuldade:</h2>
+			<p class="texto-info">				
+				<button id="facil" onclick="buscaDificuldade(this.value)" value="1">Fácil</button>
+				<strong id="divbuttondificuldadeesq"> | </strong>
+				<button id="medio" onclick="buscaDificuldade(this.value)" value="2">Médio</button>
+				<strong id="divbuttondificuldadedir"> | </strong>
+				<button id="dificil" onclick="buscaDificuldade(this.value)" value="3">Difícil</button>
+			</p>
+			<div id="habilitadivdecks" style="display:none">
+				<h2>Baralhos:</h2>
+				<p class="texto-info">
+					<button id="buttonnaruto" onmouseenter="backgroundDeck(this.id)" onclick="baralhoDeck(this.id)">Naruto</button>
+					<strong id="divbuttonbaralhoesq"> | </strong>
+					<button id="buttonpokemon" onmouseenter="backgroundDeck(this.id)" onclick="baralhoDeck(this.id)">Pokemon</button>
+					<strong id="divbuttonbaralhodir"> | </strong>
+					<button id="buttonyugioh" onmouseenter="backgroundDeck(this.id)" onclick="baralhoDeck(this.id)">Yugioh</button>
+				</p>
+			</div>
+			<div id="botao-jogar" onclick="iniciarJogo()" style="display:none">
+				<img src="imagens/botao-jogar.png" id="jogar">
+			</div>
+		</div>
+		<div id="div-jogavel">
+			<div class="score" id="score">
+				<p class="texto-score">
+					Pontuação: <span id="pontuacao">0</span> |
+					Tempo: <span id="minutos">00</span> :
+					<span id="segundos">00</span> |
+					Tentativas: <span id="tentativas">0</span>
+				</p>				
+			</div>
+			<div class="botao">
+					<a href="index.html"><img src="imagens/botao-tentar.png"></a>
+			</div>
+			<div class="col-10 col-md-7">				
+				<div id="baralho">					
+				</div>
+			</div>
+			<script src="json/samplenaruto.json"></script>
+			<script src="json/samplepokemon.json"></script>
+			<script src="json/sampleyugioh.json"></script>
+			<script src="js/script.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</body>
+
+</html>
